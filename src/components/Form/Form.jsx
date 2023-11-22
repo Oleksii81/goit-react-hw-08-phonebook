@@ -1,4 +1,4 @@
-import { addNewContact } from 'redux/contactOperations';
+import { addNewContact } from 'redux/Contacts/contactOperations';
 import { selectContacts } from 'redux/selectors';
 import { useDispatch, useSelector } from "react-redux";
 //import { nanoid } from "nanoid";

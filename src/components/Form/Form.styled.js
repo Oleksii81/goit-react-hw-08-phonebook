@@ -1,14 +1,14 @@
 import { styled } from "styled-components";
 
 export const FormStyle = styled.form`
-    width: 400px;
-    height: 250px;
+    width: 100vh;
+    //height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    position: relative;
-    margin-bottom: 20px;
+    //position: relative;
+    margin-bottom: 30px;
     .label{
         margin-bottom: 20px;
     }
@@ -18,7 +18,7 @@ export const FormStyle = styled.form`
         transform: translateY(-30px);
     }
     .input{
-        width: 340px; 
+        min-width: 320px; 
         height: 32px;
         margin-bottom: 30px; 
         background: rgba(0,0,0,0.3);

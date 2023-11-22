@@ -3,16 +3,19 @@ import { styled } from "styled-components";
 export const ContainersStyle = styled.div`
     display: flex;
     align-items: center;
-    justify-content: center;
+    //justify-content: center;
     flex-direction: column;
     padding-top: 40px;
+    background-color: #85afe4c0;
+    height: 100vh;
+    width: 100vh;
     .title{
-        color: #fff; 
-        text-shadow: 0 0 10px rgba(0,0,0,0.3); 
-        letter-spacing:1px; 
-        text-align:center;
-        font-size: 28px;
-        margin-top: 0;
-        margin-bottom: 20px;
+        font-weight: 600;
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.8);
     }
 `
