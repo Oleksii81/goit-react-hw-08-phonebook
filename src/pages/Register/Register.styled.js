@@ -10,6 +10,7 @@ export const FormTitle = styled.h2`
     margin-bottom: 20px;
     margin-top: 30px;
     text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.8);
+    
 `
 
 export const RegisterFormStyles = styled.form`

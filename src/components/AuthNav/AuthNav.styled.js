@@ -2,6 +2,7 @@ import { styled } from "styled-components";
 
 export const AuthNavStyles = styled.div`
     display: flex;
+    justify-content: flex-end;
 
     a {
     text-decoration: none;

@@ -54,12 +54,10 @@ export const HomeStyledContainer = styled.div`
 
 .nav-link {
   text-decoration: none;
-  color: #000; /* Change the color as needed */
+  color: #000; 
 }
 
-/* Styles for the link picture */
 .link-picture {
-  /* Add styles for the link picture as needed */
   max-width: 100%;
   height: auto;
 }

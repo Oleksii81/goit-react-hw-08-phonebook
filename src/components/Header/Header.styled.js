@@ -8,4 +8,11 @@ export const HeaderStyled = styled.header`
     background-color: #679ee2c0;
     border-bottom: 1px solid #556072;
     padding: 0 40px;
+    box-sizing: border-box; 
+    //width: 100vh; 
+
+    @media (min-width: 320px) {
+        min-width: 320px; 
+    }
+    
 `
