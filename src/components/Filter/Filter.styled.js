@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const FilterStyle = styled.form`
-    width: 400px;
+    //width: 400px;
     height: 50px;
     display: flex;
     align-items: center;

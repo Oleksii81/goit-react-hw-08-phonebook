@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const ContactsContainer = styled.div`
-    width: 100vh;
+    //width: 100vh;
     text-align: center;
     
     .btn { 

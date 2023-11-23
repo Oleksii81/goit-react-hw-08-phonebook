@@ -5,6 +5,9 @@ export const NavigationStyles = styled.div`
     align-items: center;
     justify-content: center;
     gap: 10px;
+    @media (max-width: 620px) {
+        flex-direction: column; 
+    }
     .link {
         display: flex;
         align-items: center;

@@ -2,7 +2,7 @@ import {styled} from "styled-components";
 
 export const RedirectLinkStyles = styled.div`
     background-color: #85afe4c0;
-    width: 100vh;
+    width: -webkit-fill-available;
     .link {
         display: flex;
         align-items: center;

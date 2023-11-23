@@ -3,6 +3,15 @@ import {styled} from "styled-components";
 export const UserMenuStyled = styled.div`
     display: flex;
     gap: 10px;
+    .username {
+        display: flex;
+        align-items: center;
+    }
+    @media (max-width: 620px) {
+        .username {
+            display: none;
+        }
+    }
     .btn { 
         display: inline-block;
         display: inline; 

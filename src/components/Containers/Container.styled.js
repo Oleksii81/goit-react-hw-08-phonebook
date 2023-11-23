@@ -9,7 +9,7 @@ export const ContainersStyle = styled.div`
     margin: 0 auto;
     background-color: #85afe4c0;
     height: 100vh;
-    //width: 100vh;
+    width: -webkit-fill-available;
 
     @media (min-width: 320px) {
     min-width: 320px;

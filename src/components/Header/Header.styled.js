@@ -11,8 +11,8 @@ export const HeaderStyled = styled.header`
     box-sizing: border-box; 
     //width: 100vh; 
 
-    @media (min-width: 320px) {
-        min-width: 320px; 
+    @media (max-width: 620px) {
+        height: 160px; 
     }
     
 `
