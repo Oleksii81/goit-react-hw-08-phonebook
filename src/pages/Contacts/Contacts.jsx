@@ -7,7 +7,6 @@ import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { getAllContacts } from 'redux/Contacts/contactOperations';
-import { Modal } from 'components/Modal/Modal';
 
 const ContactsPage = () => {
     const dispatch = useDispatch();
@@ -31,7 +30,6 @@ const ContactsPage = () => {
                     <Contacts/>
                 </Containers>
             </Section>
-            <Modal/>
         </>
     );
 };

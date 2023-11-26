@@ -25,16 +25,15 @@ const contactsPersistConfig = {
   storage,
 };
 
-const filterPersistConfig = {
-  key: 'contacts',
-  storage,
-  whitelist: ['selectedCheckedCheckbox'],
-};
+//const filterPersistConfig = {
+//  key: 'contacts',
+//  storage,
+//};
   
 const rootReducer = combineReducers({
   auth: persistReducer(authPersistConfig, authReducer),
   contacts: persistReducer(contactsPersistConfig, contactsReducer),
-  filter: persistReducer(filterPersistConfig, filterReducer)
+  filter: filterReducer
 })
 
 export const store = configureStore({ reducer: rootReducer,
