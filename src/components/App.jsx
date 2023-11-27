@@ -6,7 +6,6 @@ import { refreshCurrentUser } from "redux/Auth/auth-operations";
 import { useAuth } from "hooks/useAuth";
 import { PrivateRoute } from "./PrivateRoute";
 import { RestrictedRoute } from "./RestrictedRoute";
-//import { RefreshLoading } from "./CustomLoaders/CustomLoaders";
 import { Toaster } from "./ToastContainer/ToastContainer";
 
 const HomePage = lazy(() => import('../pages/Home/Home'));

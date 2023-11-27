@@ -1,5 +1,5 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import { addContact, allContacts, removeContact, updateContact } from '../../Api/api';
+import { addContact, allContacts, removeContact } from '../../Api/api';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -43,22 +43,6 @@ export const deleteContactById = createAsyncThunk(
         catch(error){
             toast.error('Oops. Something went wrong. Please try again.');
             return thunkApi.rejectWithValue(error.message)
-        }  
-    }
-);
-
-export const updateContactById = createAsyncThunk(
-    'contacts/fetchUpdateContact',
-    async ({id, name, number}, thunkApi) => {
-        const contact = {name, number};
-        try{
-            const response = await updateContact(id, contact);
-            toast.info('Your contact has been successfully updated');
-            return response.id;
-        } 
-        catch(error){
-            toast.error('Oops. Something went wrong. Please try again.');
-            return thunkApi.rejectWithValue(error.message);
         }  
     }
 );

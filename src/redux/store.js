@@ -20,10 +20,10 @@ const authPersistConfig = {
   whitelist: ['token'],
 };
 
-const contactsPersistConfig = {
-  key: 'contacts',
-  storage,
-};
+//const contactsPersistConfig = {
+//  key: 'contacts',
+//  storage,
+//};
 
 //const filterPersistConfig = {
 //  key: 'contacts',
@@ -32,7 +32,7 @@ const contactsPersistConfig = {
   
 const rootReducer = combineReducers({
   auth: persistReducer(authPersistConfig, authReducer),
-  contacts: persistReducer(contactsPersistConfig, contactsReducer),
+  contacts: contactsReducer,
   filter: filterReducer
 })
 
